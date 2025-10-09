@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adhésion — Moderate Republican Party</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#fff0f0; color:#222; }
+    header, footer { background:#b22222; color:white; padding:10px 20px; display:flex; align-items:center; justify-content:space-between; }
+    header img { height:60px; width:60px; object-fit:cover; border-radius:5px; }
+    nav a { color:white; text-decoration:none; margin-left:20px; font-weight:bold; }
+    nav a:hover { text-decoration:underline; }
+    main { max-width:600px; margin:2rem auto; background:white; padding:2rem; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1); }
+    label { display:block; margin-top:1rem; font-weight:bold; }
+    input, select, textarea, button { width:100%; padding:.5rem; margin-top:.3rem; border-radius:6px; border:1px solid #ccc; }
+    button { background:#b22222; color:white; font-weight:bold; cursor:pointer; margin-top:1rem; }
+    button:hover { background:#8b0000; }
+    .success { color:green; margin-top:1rem; }
+    .error { color:red; margin-top:1rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="assets/repu_logo2.png" alt="Logo">
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="adherents.html">Adhérents</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Formulaire d'adhésion</h2>
+    <p>Rejoignez le Moderate Republican Party et contribuez à nos valeurs modérées.</p>
+
+    <form id="adhesionForm">
+      <label>Nom complet :</label>
+      <input type="text" id="name" required>
+
+      <label>Type d’adhésion :</label>
+      <select id="type">
+        <option value="Gratuite">Gratuite</option>
+        <option value="Payante">Payante (paiement en jeu)</option>
+      </select>
+
+      <label>Commentaire / Motivation :</label>
+      <textarea id="comment" rows="4"></textarea>
+
+      <label>Souhaitez-vous apparaître sur la liste publique ?</label>
+      <select id="public">
+        <option value="Oui">Oui</option>
+        <option value="Non">Non</option>
+      </select>
+
+      <label>Contact (Numéro de téléphone) :</label>
+      <input type="text" id="contact">
+
+      <button type="submit">Envoyer</button>
+    </form>
+
+    <div id="status"></div>
+  </main>
+
+  <footer>
+    &copy; 2025 Moderate Republican Party. Tous droits réservés.
+  </footer>
+
+  <script>
+    document.getElementById("adhesionForm").addEventListener("submit", async function(e){
+      e.preventDefault();
+      const webhookURL = "https://discord.com/api/webhooks/TON_WEBHOOK_ICI"; // remplace par ton webhook
+
+      const payload = {
+        content:"**Nouvelle adhésion reçue !** 🎉",
+        embeds:[{
+          title:"🗳️ Adhésion au Moderate Republican Party",
+          color:15158332,
+          fields:[
+            {name:"Nom Prénom", value:document.getElementById("name").value, inline:true},
+            {name:"Type d’adhésion", value:document.getElementById("type").value, inline:true},
+            {name:"Commentaire", value:document.getElementById("comment").value||"Aucun", inline:false},
+            {name:"Apparaître publiquement", value:document.getElementById("public").value, inline:true},
+            {name:"Contact", value:document.getElementById("contact").value||"Non fourni", inline:false}
+          ],
+          footer:{text:"Formulaire du site RP"}
+        }]
+      };
+
+      try {
+        await fetch(webhookURL,{
+          method:"POST",
+          headers:{"Content-Type":"application/json"},
+          body:JSON.stringify(payload)
+        });
+        document.getElementById("status").innerHTML="<p class='success'>✅ Adhésion envoyée ! Vous serez contacté en jeu.</p>";
+        document.getElementById("adhesionForm").reset();
+      } catch(err){
+        console.error(err);
+        document.getElementById("status").innerHTML="<p class='error'>❌ Erreur lors de l’envoi.</p>";
+      }
+    });
+  </script>
+</body>
+</html>
