@@ -17,26 +17,67 @@ const adherents = [
     commentaire: "Aujourd’hui, je suis fier d’avoir créé, avec tous les collaborateurs du parti, le Moderate Republican Party, qui reflète parfaitement mon état d’esprit et, surtout, les besoins actuels de notre État. Il est essentiel que chaque citoyen de San Andreas s’implique en politique, car à l’heure actuelle, chaque vote compte.",
     photo: "https://files.catbox.moe/nd8nql.png",
     lien: "https://life.introrp.com/Ethan_Carter94",
-    couleur: "rouge"
+    couleur: "diamond"
   },
   {
-    nom: "████████ ████████████",
-    age: 20,
-    date: "10/09/2025",
-    profession: "Deputy LSCSD | Master FTO",
-    commentaire: "Je ne voulais pas exprimer de commentaire particulier.",
+    nom: "Aider Dellair",
+    age: 28,
+    date: "15/08/2025",
+    profession: "Secrétaire général",
+    commentaire: "Aujourd’hui, je mesure le chemin parcouru. Ensemble, avec les membres du parti, nous avons posé les bases d’un mouvement qui place les citoyens au cœur de la décision. Le Moderate Republican Party n’est pas seulement une organisation politique, c’est une vision pour une San Andreas plus juste et plus unie.",
+    photo: "https://files.catbox.moe/qp2p0p.png",
+    lien: "https://life.introrp.com/Magroz?ref=qs",
+    couleur: "diamond"
+  },
+  {
+    nom: "Reagan Holloway",
+    age: 35,
+    date: "18/08/2025",
+    profession: "Secrétaire à l’information",
+    commentaire: "Notre objectif a toujours été clair : redonner la parole à ceux qui la méritent, les habitants de San Andreas. Grâce à une équipe dévouée, nous avançons chaque jour vers une politique fondée sur l’écoute, la transparence et la responsabilité.",
+    photo: "https://files.catbox.moe/uby4ez.png",
+    lien: "https://life.introrp.com/R.Holloway?ref=qs",
+    couleur: "diamond"
+  },
+  {
+    nom: "Austin de Sullivan",
+    age: 27,
+    date: "20/08/2025",
+    profession: "Vice-secrétaire à l’information",
+    commentaire: "Je suis profondément reconnaissant envers tous ceux qui ont cru en notre projet. Le Moderate Republican Party représente bien plus qu’un simple parti : c’est un engagement collectif pour un avenir stable, équilibré et prospère.",
+    photo: "https://files.catbox.moe/drhf9p.png",
+    lien: "https://life.introrp.com/ModerateSullivan?ref=qs",
+    couleur: "diamond"
+  },
+  {
+    nom: "████ █████████",
+    age: 00,
+    date: "18/08/2025",
+    profession: "Ancien agent du FIB",
+    commentaire: "Je suis fière aujourd’hui d’avoir adhéré au Moderate Republican Party. C’est une décision mûrement réfléchie, guidée par mon envie de m’impliquer activement dans la vie politique de San Andreas. Je crois profondément que chaque voix peut faire la différence, et je veux que la mienne serve à construire un avenir plus juste et équilibré pour tous.",
     photo: "https://files.catbox.moe/a2s966.png",
     lien: "https://life.introrp.com/",
     couleur: "doré"
   },
   {
-    nom: "██████████ ██████",
-    age: 16,
-    date: "10/09/2025",
-    profession: "Journaliste | CNT",
-    commentaire: "La liberté et le droit de s’informer sont essentiels, surtout pour les journalistes. C’est pourquoi j’adhère aux idées du Moderate Republican Party.",
+    nom: "███████ █████",
+    age: 25,
+    date: "18/08/2025",
+    profession: "Ancien agent du PSU",
+    commentaire: "Aujourd’hui, je suis fière de rejoindre le Moderate Republican Party. Ce choix représente pour moi bien plus qu’un simple engagement politique : c’est un acte de conviction, un pas concret vers une San Andreas plus forte, plus unie et plus à l’écoute de ses citoyens. Ensemble, nous pouvons transformer nos idées en actions.",
     photo: "https://files.catbox.moe/a2s966.png",
     lien: "https://life.introrp.com/",
-    couleur: "gris"
+    couleur: "doré"
   },
+  {
+    nom: "████ █████████",
+    age: 00,
+    date: "18/08/2025",
+    profession: "Ancien agent du USMS",
+    commentaire: "C’est avec une grande fierté que j’annonce mon adhésion au Moderate Republican Party. J’ai choisi de m’engager aux côtés d’hommes et de femmes qui partagent mes valeurs de respect, de modération et de progrès. San Andreas mérite une politique responsable, fondée sur le dialogue et le bon sens — et je suis prête à y contribuer pleinement.",
+    photo: "https://files.catbox.moe/a2s966.png",
+    lien: "https://life.introrp.com/",
+    couleur: "doré"
+  },
+
 ];

@@ -39,7 +39,7 @@
       <label>Type d’adhésion :</label>
       <select id="type">
         <option value="Gratuite">Gratuite</option>
-        <option value="Payante">Payante (paiement en jeu)</option>
+        <option value="Payante">Payante (paiement sur place)</option>
       </select>
 
       <label>Commentaire / Motivation :</label>
@@ -67,7 +67,7 @@
   <script>
     document.getElementById("adhesionForm").addEventListener("submit", async function(e){
       e.preventDefault();
-      const webhookURL = "https://discord.com/api/webhooks/TON_WEBHOOK_ICI"; // remplace par ton webhook
+      const webhookURL = "https://discord.com/api/webhooks/1425626738733617197/NybYAnyFk_wzVe1j1b95AI9B8y5cdVBwYmvtwxJIO28ccVdijyLCslW4_LezF7cAXmGE"; // remplace par ton webhook
 
       const payload = {
         content:"**Nouvelle adhésion reçue !** 🎉",
@@ -81,7 +81,7 @@
             {name:"Apparaître publiquement", value:document.getElementById("public").value, inline:true},
             {name:"Contact", value:document.getElementById("contact").value||"Non fourni", inline:false}
           ],
-          footer:{text:"Formulaire du site RP"}
+          footer:{text:"Formulaire du site"}
         }]
       };
 
@@ -91,7 +91,7 @@
           headers:{"Content-Type":"application/json"},
           body:JSON.stringify(payload)
         });
-        document.getElementById("status").innerHTML="<p class='success'>✅ Adhésion envoyée ! Vous serez contacté en jeu.</p>";
+        document.getElementById("status").innerHTML="<p class='success'>✅ Adhésion envoyée ! Vous serez contacté sous peu.</p>";
         document.getElementById("adhesionForm").reset();
       } catch(err){
         console.error(err);
