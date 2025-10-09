@@ -1,7 +1,7 @@
 const adherents = [
   {
     nom: "Ryan Cole",
-    age: 30,
+    age: 35,
     date: "15/08/2025",
     profession: "Président du Moderate Republican Party",
     commentaire: "Aujourd’hui, je ressens une grande fierté en annonçant le lancement officiel du Moderate Republican Party (MRP), fruit d’un travail collectif acharné et de la passion de toute l’équipe qui compose notre parti. Depuis des mois, nous avons réfléchi à la manière dont nous pourrions représenter au mieux les valeurs qui nous sont chères tout en répondant aux besoins concrets de notre communauté. Le MRP incarne ainsi nos convictions profondes, qu’il s’agisse de responsabilité, de respect des citoyens et de justice sociale, mais aussi notre engagement à relever les défis actuels auxquels chaque habitant de San Andreas est confronté au quotidien.\n \n Il est essentiel pour nous que chaque membre de notre communauté comprenne l’importance de son rôle dans cette démarche collective. Chaque action, qu’elle soit petite ou grande, a un impact et contribue à façonner un avenir meilleur pour notre région. Nous encourageons chaque citoyen à s’impliquer activement, que ce soit par le dialogue, le bénévolat ou la participation aux initiatives locales, car la force de notre parti repose sur l’engagement concret et sincère de chacun.\n \nPlus que jamais, nous devons travailler ensemble, échanger des idées, soutenir les projets qui ont du sens et défendre les principes qui font de notre société un lieu où chacun peut s’épanouir. Aujourd’hui, le lancement du MRP est non seulement un symbole de nos aspirations, mais également un appel à l’action pour tous ceux qui partagent notre vision et souhaitent contribuer à un San Andreas plus dynamique, solidaire et inclusif. Ensemble, nous pouvons transformer nos convictions en actions concrètes et construire un futur dont chaque citoyen pourra être fier.",
@@ -21,7 +21,7 @@ const adherents = [
   },
   {
     nom: "Ader Dellair",
-    age: 28,
+    age: 30,
     date: "15/08/2025",
     profession: "Secrétaire général",
     commentaire: "Aujourd’hui, je mesure le chemin parcouru. Ensemble, avec les membres du parti, nous avons posé les bases d’un mouvement qui place les citoyens au cœur de la décision. Le Moderate Republican Party n’est pas seulement une organisation politique, c’est une vision pour une San Andreas plus juste et plus unie.",
@@ -51,7 +51,7 @@ const adherents = [
   },
   {
     nom: "████ █████████",
-    age: 00,
+    age: 35,
     date: "18/08/2025",
     profession: "Ancien agent du FIB",
     commentaire: "Je suis fière aujourd’hui d’avoir adhéré au Moderate Republican Party. C’est une décision mûrement réfléchie, guidée par mon envie de m’impliquer activement dans la vie politique de San Andreas. Je crois profondément que chaque voix peut faire la différence, et je veux que la mienne serve à construire un avenir plus juste et équilibré pour tous.",
@@ -71,7 +71,7 @@ const adherents = [
   },
   {
     nom: "████ █████████",
-    age: 00,
+    age: 32,
     date: "18/08/2025",
     profession: "Ancien agent du USMS",
     commentaire: "C’est avec une grande fierté que j’annonce mon adhésion au Moderate Republican Party. J’ai choisi de m’engager aux côtés d’hommes et de femmes qui partagent mes valeurs de respect, de modération et de progrès. San Andreas mérite une politique responsable, fondée sur le dialogue et le bon sens — et je suis prête à y contribuer pleinement.",
@@ -81,5 +81,6 @@ const adherents = [
   },
 
 ];
+
 
 
