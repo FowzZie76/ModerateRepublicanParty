@@ -50,6 +50,17 @@ const adherents = [
     couleur: "diamond"
   },
   {
+    nom: "Louis Garcia",
+    age: 29,
+    date: "13/10/2025",
+    profession: "Ancien deputy U.S Marshals",
+    commentaire: "J’adhère aujourd’hui au Parti Républicain Modéré car je crois profondément en ses valeurs et en la sincérité de ses membres. Ce sont des hommes en qui je peux avoir confiance, engagés pour le bien commun et attentifs aux préoccupations réelles des citoyens.\n \n Je suis convaincu que ce parti propose les réponses les plus justes et les plus efficaces face à l’insécurité grandissante dans nos villes. Son approche, à la fois responsable et ferme, redonne espoir à celles et ceux qui souhaitent vivre dans un environnement plus sûr et plus respectueux des valeurs républicaines.\n \n Rejoindre ce mouvement représente pour moi un véritable acte d’engagement et de conviction : une manière concrète de participer au changement, de défendre la justice et de contribuer à la construction d’une société plus unie et plus apaisée. 
+",
+    photo: "/assets/LouisGarcia.png",
+    lien: "https://life.introrp.com/Louisgarcia?ref=qs",
+    couleur: "doré"
+  },
+  {
     nom: "████ █████████",
     age: 35,
     date: "18/08/2025",
@@ -81,6 +92,7 @@ const adherents = [
   },
 
 ];
+
 
 
 
