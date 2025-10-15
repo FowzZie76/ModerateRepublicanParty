@@ -89,8 +89,19 @@ const adherents = [
     lien: "https://life.introrp.com/",
     couleur: "doré"
   },
+  {
+    nom: "Mamadou Sakez",
+    age: 29,
+    date: "15/10/2025",
+    profession: "Deputy Sheriff",
+    commentaire: "Je suis fier de rejoindre aujourd’hui le Moderate Republican Party. C’est un choix mûrement réfléchi, guidé par mes convictions et mon envie de m’engager pour le bien de San Andreas.\n \n Ce parti incarne des valeurs que je partage : justice, responsabilité, écoute et action concrète. Je crois en une politique plus humaine, plus proche des citoyens, et je suis prêt à y contribuer pleinement.\n \n Bonne soirée ! ",
+    photo: "/assets/MamadouSakez.png",
+    lien: "https://life.introrp.com/mama_sakez?ref=qs",
+    couleur: "gris"
+  },
 
 ];
+
 
 
 
